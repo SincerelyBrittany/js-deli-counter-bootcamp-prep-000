@@ -27,7 +27,7 @@ function currentLine(line) {
   /* Keep in mind, join() is a a shorthand for looping and building
    * into a String. */
   return `The line is currently: ${numbersAndNames.join(', ')}`
-};
+}
 
 function nowServing(line) {
   if (!line.length) {
@@ -35,5 +35,5 @@ function nowServing(line) {
   }
 
   return `Currently serving ${line.shift()}.`
-};
+}
 
